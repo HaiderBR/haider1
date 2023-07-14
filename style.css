@@ -1,0 +1,429 @@
+/*      ==============     =========      ==============      */
+/*      ==============     =========      ==============      */
+
+/* Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+
+/*      ==============     =========      ==============      */
+
+/* for all */
+*{
+	max-width: 1920px;
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+
+/*    -------------------------        -----------------    */
+
+
+/*     header section begin       */
+header{
+	width: 1920px;
+	/* height: 850px; */
+	background-color: rgba(229, 84, 115, 0.37);
+
+}
+
+.header-content{
+	width: 1440px;
+	display: flex;
+	align-items: center;
+	gap: 97px;
+
+}
+
+header h1{
+	font-size: 80px;
+	margin-bottom: 32px;
+
+}
+
+.paragraph{
+	color: rgba(39, 39, 39, 0.60);
+	font-size: 25px;
+	font-style: normal;
+	line-height: 30px;
+	margin: 32px 0;
+	width: 634px;
+	text-align: center;
+	font-weight: 400;
+
+}
+
+/* header's Shop Now -button */
+button{
+	border: 0;
+	border-radius: 10px;
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(229, 84, 115, 1);
+	padding: 0 50px;
+	font-size: 30px;
+	font-weight: 800;
+	border: none;
+	height: 70px;
+	line-height: normal;
+	text-align: center;
+	margin-top: 20px;
+	cursor: pointer;
+
+
+}
+
+/*     header section end         */
+
+
+
+
+
+/*    -------------------------        -----------------    */
+
+
+/*     main section begin       */
+
+/* for all section*/
+section{
+	margin: 150px 0px;
+
+}
+
+/* --Our Featured Flowers -section begin-- */
+.featured-flowers{
+	text-align: center;
+
+}
+
+.featured-flowers h3{
+	color: rgba(17, 16, 16, 1);
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	margin-bottom: 20px;
+
+}
+.featured-paragraph{
+	width: 900px;
+	color: rgba(39, 39, 39, 0.60);
+	text-align: center;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
+
+}
+
+.featured-flowers-pictures{
+	margin: 70px 0;
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+
+}
+
+.featured-flowers-pictures div{
+	margin-bottom: 20px;
+
+}
+
+.featured-flowers-pictures p{
+	color: rgba(17, 16, 16, 1);
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 35px;
+	text-decoration-line: underline;
+
+}
+
+.picture2{
+	width: 300px;
+	height: 428px;
+	padding: 110px 78px 0 78px;
+	background-color: rgba(167, 33, 98, 0.281);
+	border-radius: 300px 300px 0px 0px;
+
+}
+
+.picture3{
+	width: 300px;
+	height: 428px;
+	padding: 110px 78px 0 78px;
+	background-color: rgba(5, 152, 160, 0.274);
+	border-radius: 300px 300px 0px 0px;
+
+}
+
+.picture4{
+	width: 300px;
+	height: 428px;
+	padding: 110px 78px 0 78px;
+	background-color: rgba(71, 125, 17, 0.315);
+	border-radius: 300px 300px 0px 0px;
+
+}
+
+/* --Our Featured Flowers -section end-- */
+
+
+/* --Why Choose us -section begin--*/
+.why-choose-us{
+	text-align: center;
+
+}
+
+.why-choose-us h3{
+	color: rgba(17, 16, 16, 1);
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	margin-bottom: 20px;
+
+}
+
+.why-choose-us .checkbox-div{
+	display: flex;
+
+}
+
+.why-choose-us ul{
+	list-style-type: none;
+
+}
+
+.why-choose-us ul li:before {
+	content: '✓';
+}
+
+.why-choose-us ul li{
+	text-align: left;
+	color: rgba(17, 16, 16, 1);
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 35px;
+
+}
+
+/* --Why Choose us -section end--*/
+
+
+
+/* --Hot Deal -section begin-- */
+.hot-deal{
+	text-align: center;
+	border-radius: 8px;
+	background-color: rgba(229, 84, 115, 0.37);
+
+}
+.hot-deal-contents{
+	width: 1440px;
+	margin: 0 auto;
+
+}
+
+.hot-deal-text{
+	display: flex;
+	color: rgba(17, 16, 16, 1);
+	text-align: center;
+	align-items: center;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	padding: 120px 0;
+	justify-content: space-around;
+
+}
+
+.hot-deal-text p{
+	width: 594px;
+	color: rgba(39, 39, 39, 0.60);
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.red{
+	color: #ff0000;
+}
+
+.green{
+	color: #2ade2a;
+}
+/* --Hot Deal -section end-- */
+
+
+
+
+/* --Instagram -section begin-- */
+.instagram{
+	text-align: center;
+
+}
+
+.instagram h3{
+	color: rgba(17, 16, 16, 1);
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	margin-bottom: 20px;
+
+}
+
+.instagram-paragraph{
+	width: 900px;
+	color: rgba(39, 39, 39, 0.60);
+	text-align: center;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
+
+}
+
+.instagram-pictures{
+	margin: 70px 0;
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+
+}
+
+.instagram-pictures div{
+	margin-bottom: 20px;
+
+}
+/* --Instagram -section end-- */
+
+
+
+/*     Latest Deals -section begin       */
+.form-content{
+	width: 1440px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 130px 0;
+	background-image: url(pictures/picture10.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.form-content h3{
+	color: rgba(17, 16, 16, 1);
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	margin-bottom: 20px;
+
+}
+
+.form-content p{
+	font-size: 24px;
+	font-weight: 600;
+
+}
+
+.form-content p strong{
+	font-size: 30px;
+	font-weight: 600;
+
+}
+
+.form-content form{
+	margin-top: 50px;
+
+}
+
+input[type="email"]{
+	width: 700px;
+	height: 64px;
+	margin-right: 20px;
+	border-radius: 8px;
+	background-color: rgba(255, 255, 255, 1);
+	border: none;
+	padding: 0 50px;
+
+}
+
+input[type="email"]::placeholder{
+	color: rgba(39, 39, 39, 0.60);
+}
+/*     Latest Deals -section end         */
+
+      /***     ---main section end---         ***/
+
+
+
+
+/*    -------------------------        -----------------    */
+
+
+/*   ---footer section begin---      */
+footer{
+	margin: 0 auto;
+	text-align: center;
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(17, 16, 16, 1);
+
+}
+
+.footer-content{
+	width: 1440px;
+	margin: 0 auto;
+	text-align: center;
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(17, 16, 16, 1);
+	padding: 150px 0;
+
+}
+
+/* for the word =>  "FlowerShop" */
+.footer_flowershop{
+	text-align: center;
+	font-size: 60px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	color: rgba(255, 255, 255, 1);
+
+}
+
+/* text-color for flower*/
+.pink{
+	color: rgba(229, 84, 115, 1);
+	font-weight: 1000px;
+
+}
+
+/* Footer's  paragraph part */
+.footer_paragraph{
+	text-align: center;
+	width: 700px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	color: rgba(255, 255, 255, 1);
+
+}
+
+/* Footer's copy_rights  */
+.copy_rights{
+	text-align: center;
+	font-weight: 1000px;
+	color: rgba(255, 255, 255, 1);
+}
+/*  ---footer section end----        */
+
+
+/*      ==============     =========      ==============      */
+/*      ==============     =========      ==============      */
